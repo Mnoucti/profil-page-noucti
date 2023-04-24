@@ -1,0 +1,164 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+    body {
+        background-image: url(images/liane.png);
+        background-position: center;
+        background-size: cover;
+        color: #CEDFC5;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 2;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    h1 {
+        font-weight: 800;
+        font-size: 50px;
+        letter-spacing: 4px;
+        color: #224B2C;
+        text-align: center;
+        text-shadow: -0 -5px 20px #2C6239;   
+     }
+    
+
+    h2 { 
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    h3 { 
+        font-weight: bold;
+        font-size: 18px;
+        color: #4AA45F;
+        text-align: center;
+        line-height: 0,5;
+        margin : 1; 
+    }
+    p { 
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1,5;
+    }
+    li { 
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      font-size: 14px;
+      line-height: 1,3;
+      list-style-position: inside;
+      list-style-type: square;
+  }
+    a {
+        text-decoration: none;
+    }
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+.container1 {
+  width: 900px;
+  margin: 20px auto;
+}
+.blink {
+  animation: blink 1s infinite;
+}
+@keyframes blink { 
+  0% { opacity:0; }
+  50% { opacity:1; } 
+  100% { opacity:0; }
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 14px;
+}
+.card-profil {
+  background-color: #224B2C;
+  padding: 14px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+#marion-picture {
+  border-radius: 50%;
+  height: 200px;
+  box-shadow: 0 10px 20px #CEDFC5 ;
+}
+.container {
+    width: 900px;
+    margin: 10px auto;
+}
+
+.card-white {
+    color: #224B2C;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 50px Auto;
+    box-shadow: 0 10px 20px #224B2C;
+    background-image:  url("images/feuille-green.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .card-green {
+    background-color: #224B2C;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 50px Auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+  }
+
+
+  .btn-green {
+    background-color: #CEDFC5;
+    color:  #224B2C;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+  }
+  .card-green h1 { 
+    text-shadow: 2px 2px 3px #4AA45F ;
+  }
+  .btn-green:hover {
+    background-color: #4AA45F;
+  }
+
+  #intro {
+    margin-bottom: 30px;
+  }
+
+  .list-inline1 {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline1 li {
+    display: inline;
+  }
+
+  .list-inline1 i {
+    text-shadow: #CEDFC5;
+    font-size: 60px;
+    color: #4AA45F;
+    letter-spacing: 30px;
+    text-shadow: 2px 2px 3px #224B2C
+  }
+  .list-inline1 i:hover {
+    color: #224B2C;
+    font-size: 100px;
+  }
+
+  .Texte { 
+    line-height: 1;
+    Margin : 1px; 
+  }
+
+
+
+
